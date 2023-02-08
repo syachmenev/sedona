@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(105.18deg, #1e3c72 -2.04%, #2a5298 107.42%);
+  /* height: 100vh; */
+  padding-bottom: 100px;
+  border-radius: 0 0 200px 0;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item {
+  padding: 0 50px;
+}
+
+.btn {
+  border: 1.5px solid #ffffff;
+  border-radius: 50px;
+  padding: 13px 31px;
+  cursor: pointer;
+}
+
+.nav__btn {
+  background-color: transparent;
+  color: #fff;
+}
+
+.about {
+  padding-top: 110px;
+  position: relative;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.trial {
+  flex-basis: 642px;
+}
+
+.trial__title {
+  font-weight: 700;
+  font-size: 85px;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+.trial__desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  max-width: 507px;
+}
+
+.trial-started {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.trial__btn {
+  background-color: #fff;
+  color: #000;
+  margin-right: 20px;
+}
+
+.trial__link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.trial__link::before {
+  content: "";
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 26px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sponsors__text {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.sponsors-list {
+  display: flex;
+  gap: 28px;
+}
+
+.sponsors-list__icon {
+  background-image: url(../images/paypal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 28px;
+  display: block;
+}
+
+.sponsors-list__icon-google {
+  background-image: url(../images/google.png);
+  width: 85px;
+  height: 28px;
+}
+
+.sponsors-list__icon-dropbox {
+  background-image: url(../images/Dropbox_logo_2017.png);
+  width: 123px;
+  height: 24px;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone__img {
+  position: relative;
+}
+
+.phone::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/pattern_то.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  top: 0;
+  right: 135px;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+}
