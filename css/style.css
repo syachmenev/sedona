@@ -273,7 +273,27 @@ p {
 
 
 /* section analitics */
+.analitics {
+  position: relative;
+}
+
+.cover {
+  position: absolute;
+  top: 100px;
+  width: 1277px;
+  height: 1283px;
+  background: linear-gradient(106.43deg, rgba(255, 253, 230, 0.35) -1.4%, rgba(255, 253, 230, 0.07) -1.39%, rgba(224, 239, 250, 0.35) 100.87%);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
 
 .analitics__inner {
   display: flex;
+  gap: 98px;
+  justify-content: center;
+}
+
+.jackpots {
+  align-self: center;
+  max-width: 540px;
 }
