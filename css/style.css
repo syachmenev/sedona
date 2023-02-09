@@ -43,8 +43,8 @@ a {
   background-image: url(../images/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
-  top: -15px;
-  right: 259px;
+  top: 0;
+  right: 0;
   bottom: 0;
   display: block;
   width: 100%;
@@ -182,8 +182,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  top: 0;
-  right: 135px;
+  top: -15px;
+  right: 259px;
   bottom: 0;
   width: 200px;
   height: 200px;
