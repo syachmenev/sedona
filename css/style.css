@@ -83,11 +83,7 @@ a {
   position: relative;
   color: #fff;
   display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-
-.trial {
-  flex-basis: 642px;
+  grid-template-columns: 642px 900px;
 }
 
 .trial__title {
