@@ -81,11 +81,12 @@ p {
   border-radius: 50px;
   padding: 13px 31px;
   cursor: pointer;
+  color: #fff;
 }
 
 .nav__btn {
   background-color: transparent;
-  color: #fff;
+
 }
 
 .about {
@@ -375,4 +376,33 @@ p {
   background-image: url(../images/time.png);
   width: 82px;
   height: 82px;
+}
+
+/* section core-featurs */
+.core-features {
+  margin-bottom: 219px;
+}
+
+.core-featurs__desc {
+  font-size: 18px;
+  color: #02073E;
+}
+
+.core-features__btn {
+  margin-top: 30px;
+  background: #1F3E76;
+}
+
+.core-featurs-inner {
+  display: flex;
+}
+
+.core-feauters-block {
+  align-self: center;
+  flex: none;
+}
+
+.core-features__title {
+  font-size: 48px;
+  margin: 8px 0 40px;
 }
