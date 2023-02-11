@@ -275,6 +275,7 @@ p {
 /* section analitics */
 .analitics {
   position: relative;
+  margin-bottom: 166px;
 }
 
 .cover {
@@ -305,14 +306,15 @@ p {
 }
 
 .features-list {
-  max-width: 100%;
-  width: 500px;
+  text-align: left;
 }
 
 .features-list__item {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  width: 370px;
   padding: 27px 38px 27px 76px;
 }
 
@@ -347,3 +349,30 @@ p {
 
 
 /* section features-app */
+
+.features-app {
+  text-align: center;
+  margin-bottom: 218px;
+}
+
+.features-list-app {
+  padding-top: 78px;
+}
+
+.features-list-inner-app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 66px;
+}
+
+.features-list__item--app {
+  width: 370px;
+  padding: 0;
+  padding-left: 107px;
+}
+
+.features-list__item--app::before {
+  background-image: url(../images/time.png);
+  width: 82px;
+  height: 82px;
+}
