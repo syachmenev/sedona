@@ -416,5 +416,82 @@ p {
 /* section whats-featurs */
 
 .whats-features {
+  position: relative;
+  background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 156px;
+}
+
+.whats-features::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/pattern\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.whats-features__text {
   color: #fff;
+}
+
+.whats-features__title {
+  color: #fff;
+}
+
+.whats-featurs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 148px;
+  text-align: left;
+  color: #fff;
+}
+
+.whats-featurs-list__item {
+  position: relative;
+  max-width: 100%;
+  width: 263px;
+  padding-top: 97px;
+}
+
+.whats-featurs-list__item::before {
+  content: '01';
+  position: absolute;
+  background-color: #fff;
+  padding: 19px 15px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  font-size: 30px;
+  color: #22437D;
+  text-align: center;
+  top: 0;
+  display: block;
+}
+
+.whats-featurs-list__item:nth-child(2):before {
+  content: '02';
+}
+
+.whats-featurs-list__item:nth-child(3):before {
+  content: '03';
+}
+
+.whats-featurs-list__item:nth-child(4):before {
+  content: '04';
+}
+
+.whats-featurs-list__title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.whats-featurs-list__desc {
+  font-size: 15px;
+  opacity: 0.65;
 }
