@@ -399,10 +399,22 @@ p {
 
 .core-feauters-block {
   align-self: center;
+  max-width: 100%;
+  width: 488px;
   flex: none;
 }
 
 .core-features__title {
   font-size: 48px;
   margin: 8px 0 40px;
+}
+
+.core-featurs-skill img {
+  max-width: 100%;
+}
+
+/* section whats-featurs */
+
+.whats-features {
+  color: #fff;
 }
